@@ -15,4 +15,5 @@ app.register_blueprint(sos_bp, url_prefix="/api")
 if __name__ == "__main__":
     # app.run(debug=True)
     # app.run(host='192.168.1.76', port=5000, debug=True)
-    app.run(host='192.168.1.76', port=5000, debug=True)
+    # app.run(host='192.168.1.76', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)
